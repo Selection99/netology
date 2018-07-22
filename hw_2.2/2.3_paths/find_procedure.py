@@ -42,7 +42,9 @@ if __name__ == '__main__':
 
 migrations = 'Migrations'
 current_dir = p.dirname(p.abspath(__file__))
-chdir(migrations)
+chdir(p.join(current_dir, migrations))
+# chdir(migrations) # если запустить скрипт из папки, где он лежит
+
 # Вариант 1 абсолютный путь
 # results_of_search = [p.abspath(dir) for dir in list(listdir())]
 # Вариант 2 относительный путь
@@ -74,8 +76,8 @@ while len(results_of_search) > 1:
     print_list_of_files()
 
 # Запросы
-# INSERT -> 307
-# APPLICATION_SETUP -> 26
+# INSERT -> 307 (в примере 301)
+# APPLICATION_SETUP -> 26 (здесь уже совпадает)
 # A400M -> 17
 # 0.0 -> 2
 # 2.0 -> 1
