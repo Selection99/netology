@@ -1,7 +1,6 @@
 from glob import glob
 import json
 
-words_dictionary = {}
 list_of_files = glob('Source/*.json')
 
 
@@ -28,8 +27,18 @@ def iterating_json(big_obj):
             raise Exception("Strange. Check obj.", obj)
 
 
+def show_top10():
+    def take_second_arg_from_tuple(tupl):
+        return tupl[1]
+    words_list = list(words_dictionary.items())
+    for i, word in enumerate(sorted(words_list, key=take_second_arg_from_tuple, reverse=True)[:10]):
+        print(f'{i + 1}) "{word[0]}" - {word[1]}')
+
+
 for file in list_of_files:
     with open(file, encoding='utf8', errors='ignore') as f:
+        words_dictionary = {}
         iterating_json(json.load(f))
-for i, word in enumerate(sorted(list(words_dictionary.items()), key=lambda tupl:tupl[1], reverse=True)[:10]):
-    print(f'{i + 1}) "{word[0]}" - {word[1]}')
+    print(f"{file}:")
+    show_top10()
+
