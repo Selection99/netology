@@ -3,7 +3,7 @@ from requests import get
 https://oauth.vk.com/authorize?client_id=6652484&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.8
 """
 
-token = '49dac98cfbb5f563a7dbf4ce9fbc38db746afe291421184f348e5c6877c7b36b6077d0d287c00391776b6'
+token = '1944478ab1bd52aa85c4ddeed423f1133be989e75c05fd6b64d50104f25ff83d854deabb7a006fb7db4dd'
 v = 5.80
 app_id = 6652484
 id_1 = 26549682
@@ -34,8 +34,19 @@ class VkUser:
         return f"https://vk.com/{self.id}"
 
 
-Seva = VkUser(id_1)
-Katya = VkUser(id_2)
-print(Seva)
-print(Seva & Katya)
+# Seva = VkUser(id_1)
+# Katya = VkUser(id_2)
+# print(Seva)
+# print(Seva & Katya)
+
+for i in range(10):
+    response = get('https://api.vk.com/method/friends.get', params=dict(
+        user_id=26549682,
+        access_token=token,
+        fields='id',
+        v=v
+    )
+    )
+    print(response.text)
+
 
