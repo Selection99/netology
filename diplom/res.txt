@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Типичный Милитарист",
+        "gid": "typical_military",
+        "members_count": 72812
+    }
+]
