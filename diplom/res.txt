@@ -1,7 +1,22 @@
 [
     {
-        "name": "Типичный Милитарист",
-        "gid": "typical_military",
-        "members_count": 72812
+        "name": "HARPER'S BAZAAR RUSSIA",
+        "gid": "harpers_bazaar",
+        "members_count": 18962
+    },
+    {
+        "name": "Women's Health Россия",
+        "gid": "whealth",
+        "members_count": 95466
+    },
+    {
+        "name": "Iskusstvo",
+        "gid": "iskucctvo",
+        "members_count": 59043
+    },
+    {
+        "name": "style addict",
+        "gid": "thestyleaddict",
+        "members_count": 41044
     }
 ]
