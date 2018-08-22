@@ -2,21 +2,21 @@
     {
         "name": "HARPER'S BAZAAR RUSSIA",
         "gid": "harpers_bazaar",
-        "members_count": 18962
+        "members_count": 18982
     },
     {
         "name": "Women's Health Россия",
         "gid": "whealth",
-        "members_count": 95466
+        "members_count": 95459
     },
     {
         "name": "Iskusstvo",
         "gid": "iskucctvo",
-        "members_count": 59043
+        "members_count": 59169
     },
     {
         "name": "style addict",
         "gid": "thestyleaddict",
-        "members_count": 41044
+        "members_count": 41144
     }
 ]
