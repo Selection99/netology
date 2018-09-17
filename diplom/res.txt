@@ -1,22 +1,42 @@
 [
     {
-        "name": "HARPER'S BAZAAR RUSSIA",
-        "gid": "harpers_bazaar",
-        "members_count": 18982
+        "name": "Penya Blaugrana Osos Rusos",
+        "gid": "ososrusos",
+        "members_count": 1234
     },
     {
-        "name": "Women's Health Россия",
-        "gid": "whealth",
-        "members_count": 95459
+        "name": "Институт Исторической Дичи",
+        "gid": "iidish",
+        "members_count": 13746
     },
     {
-        "name": "Iskusstvo",
-        "gid": "iskucctvo",
-        "members_count": 59169
+        "name": "EA SPORTS FIFA",
+        "gid": "easportsfifa",
+        "members_count": 227013
     },
     {
-        "name": "style addict",
-        "gid": "thestyleaddict",
-        "members_count": 41144
+        "name": "ОНДБ - Бизнес с нуля",
+        "gid": "ondb_business",
+        "members_count": 4850
+    },
+    {
+        "name": "Tim Bet",
+        "gid": "timbetru",
+        "members_count": 531959
+    },
+    {
+        "name": "\"1917\" - в игре обретешь ты право свое!",
+        "gid": "igra1917",
+        "members_count": 877
+    },
+    {
+        "name": "DOCA",
+        "gid": "dayofcontemporaryart",
+        "members_count": 2553
+    },
+    {
+        "name": "ФУТБОЛЬНЫЕ КАРИКАТУРЫ",
+        "gid": "cartfoot",
+        "members_count": 153015
     }
 ]
